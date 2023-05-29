@@ -1,0 +1,25 @@
+.AppointmentCard {
+    margin: 2%;
+}
+.AppointmentCard .card {
+    margin: 2%;
+    text-align: center;
+    justify-content: center;
+    width: 280px;
+    display: inline-block;
+  
+}
+.AppointmentCard .card:hover{
+    background-color: rgb(162, 175, 185);
+}
+
+.AppointmentCard .Summury{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid rgb(24, 91, 129);
+    text-align: center;
+}
+.AppointmentCard .p{
+    background-color: rgb(139, 166, 197);
+    
+}

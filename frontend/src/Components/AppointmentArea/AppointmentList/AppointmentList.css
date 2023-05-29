@@ -1,0 +1,8 @@
+.AppointmentList .card{
+	display: flex;
+    text-align: center;
+   
+}
+.AppointmentList{
+    text-align: center;
+}
