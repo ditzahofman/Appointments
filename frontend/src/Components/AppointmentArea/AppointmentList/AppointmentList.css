@@ -1,8 +1,14 @@
-.AppointmentList .card{
-	display: flex;
+.AppointmentList > .card{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
     text-align: center;
-   
+ 
+  
 }
 .AppointmentList{
     text-align: center;
+}
+*{
+    box-sizing: border-box;
 }

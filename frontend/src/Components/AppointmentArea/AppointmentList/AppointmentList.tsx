@@ -45,7 +45,8 @@ function AppointmentList(): JSX.Element {
                 </MenuItem>
                 )}
             </Select>
-        </FormControl><div className="card">
+        </FormControl>
+        <div className="card">
                 {appointments.map(a=> <AppointmentCard key={a.appointmentId} appointment={a}/>)}
             </div>
         </div>
